@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5035408614D0680200D38616 /* RequesterHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5035408514D0680200D38616 /* RequesterHelper.m */; };
+		5035408914D0738900D38616 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5035408814D0738900D38616 /* icon.png */; };
+		5035408B14D0747200D38616 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5035408A14D0747200D38616 /* Default.png */; };
+		50775B3714E5996700C1A383 /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 50775B1F14E5996700C1A383 /* NSObject+SBJson.m */; };
+		50775B3814E5996700C1A383 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 50775B2214E5996700C1A383 /* SBJsonParser.m */; };
+		50775B3914E5996700C1A383 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 50775B2414E5996700C1A383 /* SBJsonStreamParser.m */; };
+		50775B3A14E5996700C1A383 /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 50775B2614E5996700C1A383 /* SBJsonStreamParserAccumulator.m */; };
+		50775B3B14E5996700C1A383 /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 50775B2814E5996700C1A383 /* SBJsonStreamParserAdapter.m */; };
+		50775B3C14E5996700C1A383 /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 50775B2A14E5996700C1A383 /* SBJsonStreamParserState.m */; };
+		50775B3D14E5996700C1A383 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 50775B2C14E5996700C1A383 /* SBJsonStreamWriter.m */; };
+		50775B3E14E5996700C1A383 /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 50775B2E14E5996700C1A383 /* SBJsonStreamWriterAccumulator.m */; };
+		50775B3F14E5996700C1A383 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 50775B3014E5996700C1A383 /* SBJsonStreamWriterState.m */; };
+		50775B4014E5996700C1A383 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 50775B3214E5996700C1A383 /* SBJsonTokeniser.m */; };
+		50775B4114E5996700C1A383 /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = 50775B3414E5996700C1A383 /* SBJsonUTF8Stream.m */; };
+		50775B4214E5996700C1A383 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 50775B3614E5996700C1A383 /* SBJsonWriter.m */; };
+		50B9236314FFC778006F6AD1 /* speechbubble@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50B9235D14FFC778006F6AD1 /* speechbubble@2x.png */; };
+		50B9236414FFC778006F6AD1 /* folder.png in Resources */ = {isa = PBXBuildFile; fileRef = 50B9235E14FFC778006F6AD1 /* folder.png */; };
+		50B9236514FFC778006F6AD1 /* folder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50B9235F14FFC778006F6AD1 /* folder@2x.png */; };
+		50B9236614FFC778006F6AD1 /* play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50B9236014FFC778006F6AD1 /* play@2x.png */; };
+		50B9236714FFC778006F6AD1 /* speechbubble.png in Resources */ = {isa = PBXBuildFile; fileRef = 50B9236114FFC778006F6AD1 /* speechbubble.png */; };
+		50B9236814FFC778006F6AD1 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 50B9236214FFC778006F6AD1 /* play.png */; };
+		50B9236B14FFCD4D006F6AD1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50B9236A14FFCD4D006F6AD1 /* QuartzCore.framework */; };
+		50C49D6314E4683F00AAE524 /* SocketJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C49D6214E4683F00AAE524 /* SocketJSONParser.m */; };
+		50E4BA6214B698A90087C364 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50E4BA6114B698A90087C364 /* UIKit.framework */; };
+		50E4BA6414B698A90087C364 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50E4BA6314B698A90087C364 /* Foundation.framework */; };
+		50E4BA6614B698A90087C364 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50E4BA6514B698A90087C364 /* CoreGraphics.framework */; };
+		50E4BA6C14B698A90087C364 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50E4BA6A14B698A90087C364 /* InfoPlist.strings */; };
+		50E4BA6E14B698A90087C364 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E4BA6D14B698A90087C364 /* main.m */; };
+		50E4BA7214B698A90087C364 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E4BA7114B698A90087C364 /* AppDelegate.m */; };
+		50E4BA7514B698A90087C364 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50E4BA7314B698A90087C364 /* MainStoryboard_iPhone.storyboard */; };
+		50E4BA7814B698A90087C364 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50E4BA7614B698A90087C364 /* MainStoryboard_iPad.storyboard */; };
+		50E4BA7B14B698A90087C364 /* FeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E4BA7A14B698A90087C364 /* FeedbackViewController.m */; };
+		50E4BA7D14B698A90087C364 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 50E4BA7C14B698A90087C364 /* first.png */; };
+		50E4BA7F14B698A90087C364 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50E4BA7E14B698A90087C364 /* first@2x.png */; };
+		50E4BA8414B698A90087C364 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 50E4BA8314B698A90087C364 /* second.png */; };
+		50E4BA8614B698A90087C364 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50E4BA8514B698A90087C364 /* second@2x.png */; };
+		50E4BA8E14B69B530087C364 /* NowPlayingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E4BA8D14B69B530087C364 /* NowPlayingViewController.m */; };
+		50E4BA9114B69D6A0087C364 /* LibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E4BA9014B69D6A0087C364 /* LibraryViewController.m */; };
+		50F77CCD14CFD12500B13774 /* Song.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F77CCC14CFD12500B13774 /* Song.m */; };
+		50F77CD014CFDDC600B13774 /* SongDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F77CCF14CFDDC600B13774 /* SongDetailViewController.m */; };
+		50FA4BE914EBFCF7005FDBE5 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 50FA4BE814EBFCF7005FDBE5 /* Settings.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5035408414D0680200D38616 /* RequesterHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequesterHelper.h; sourceTree = "<group>"; };
+		5035408514D0680200D38616 /* RequesterHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequesterHelper.m; sourceTree = "<group>"; };
+		5035408814D0738900D38616 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		5035408A14D0747200D38616 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		50775B1E14E5996700C1A383 /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+SBJson.h"; path = "SBJSON/NSObject+SBJson.h"; sourceTree = "<group>"; };
+		50775B1F14E5996700C1A383 /* NSObject+SBJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+SBJson.m"; path = "SBJSON/NSObject+SBJson.m"; sourceTree = "<group>"; };
+		50775B2014E5996700C1A383 /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJson.h; path = SBJSON/SBJson.h; sourceTree = "<group>"; };
+		50775B2114E5996700C1A383 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonParser.h; path = SBJSON/SBJsonParser.h; sourceTree = "<group>"; };
+		50775B2214E5996700C1A383 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonParser.m; path = SBJSON/SBJsonParser.m; sourceTree = "<group>"; };
+		50775B2314E5996700C1A383 /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamParser.h; path = SBJSON/SBJsonStreamParser.h; sourceTree = "<group>"; };
+		50775B2414E5996700C1A383 /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamParser.m; path = SBJSON/SBJsonStreamParser.m; sourceTree = "<group>"; };
+		50775B2514E5996700C1A383 /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamParserAccumulator.h; path = SBJSON/SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		50775B2614E5996700C1A383 /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamParserAccumulator.m; path = SBJSON/SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		50775B2714E5996700C1A383 /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamParserAdapter.h; path = SBJSON/SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		50775B2814E5996700C1A383 /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamParserAdapter.m; path = SBJSON/SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		50775B2914E5996700C1A383 /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamParserState.h; path = SBJSON/SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		50775B2A14E5996700C1A383 /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamParserState.m; path = SBJSON/SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		50775B2B14E5996700C1A383 /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamWriter.h; path = SBJSON/SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		50775B2C14E5996700C1A383 /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamWriter.m; path = SBJSON/SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		50775B2D14E5996700C1A383 /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamWriterAccumulator.h; path = SBJSON/SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		50775B2E14E5996700C1A383 /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamWriterAccumulator.m; path = SBJSON/SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		50775B2F14E5996700C1A383 /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamWriterState.h; path = SBJSON/SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		50775B3014E5996700C1A383 /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamWriterState.m; path = SBJSON/SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		50775B3114E5996700C1A383 /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonTokeniser.h; path = SBJSON/SBJsonTokeniser.h; sourceTree = "<group>"; };
+		50775B3214E5996700C1A383 /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonTokeniser.m; path = SBJSON/SBJsonTokeniser.m; sourceTree = "<group>"; };
+		50775B3314E5996700C1A383 /* SBJsonUTF8Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonUTF8Stream.h; path = SBJSON/SBJsonUTF8Stream.h; sourceTree = "<group>"; };
+		50775B3414E5996700C1A383 /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonUTF8Stream.m; path = SBJSON/SBJsonUTF8Stream.m; sourceTree = "<group>"; };
+		50775B3514E5996700C1A383 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonWriter.h; path = SBJSON/SBJsonWriter.h; sourceTree = "<group>"; };
+		50775B3614E5996700C1A383 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonWriter.m; path = SBJSON/SBJsonWriter.m; sourceTree = "<group>"; };
+		507B258814E788B600334C5C /* SocketDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketDelegate.h; sourceTree = "<group>"; };
+		50B9235D14FFC778006F6AD1 /* speechbubble@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "speechbubble@2x.png"; sourceTree = "<group>"; };
+		50B9235E14FFC778006F6AD1 /* folder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = folder.png; sourceTree = "<group>"; };
+		50B9235F14FFC778006F6AD1 /* folder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "folder@2x.png"; sourceTree = "<group>"; };
+		50B9236014FFC778006F6AD1 /* play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play@2x.png"; sourceTree = "<group>"; };
+		50B9236114FFC778006F6AD1 /* speechbubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speechbubble.png; sourceTree = "<group>"; };
+		50B9236214FFC778006F6AD1 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		50B9236A14FFCD4D006F6AD1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		50C49D6114E4683F00AAE524 /* SocketJSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketJSONParser.h; sourceTree = "<group>"; };
+		50C49D6214E4683F00AAE524 /* SocketJSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketJSONParser.m; sourceTree = "<group>"; };
+		50E4BA5D14B698A90087C364 /* Scherzo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scherzo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50E4BA6114B698A90087C364 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		50E4BA6314B698A90087C364 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		50E4BA6514B698A90087C364 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		50E4BA6914B698A90087C364 /* Request-A-Song-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Request-A-Song-Info.plist"; sourceTree = "<group>"; };
+		50E4BA6B14B698A90087C364 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		50E4BA6D14B698A90087C364 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50E4BA6F14B698A90087C364 /* Scherzo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Scherzo-Prefix.pch"; sourceTree = "<group>"; };
+		50E4BA7014B698A90087C364 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		50E4BA7114B698A90087C364 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		50E4BA7414B698A90087C364 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		50E4BA7714B698A90087C364 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		50E4BA7914B698A90087C364 /* FeedbackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedbackViewController.h; sourceTree = "<group>"; };
+		50E4BA7A14B698A90087C364 /* FeedbackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedbackViewController.m; sourceTree = "<group>"; };
+		50E4BA7C14B698A90087C364 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		50E4BA7E14B698A90087C364 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		50E4BA8314B698A90087C364 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		50E4BA8514B698A90087C364 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		50E4BA8C14B69B530087C364 /* NowPlayingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NowPlayingViewController.h; sourceTree = "<group>"; };
+		50E4BA8D14B69B530087C364 /* NowPlayingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NowPlayingViewController.m; sourceTree = "<group>"; };
+		50E4BA8F14B69D6A0087C364 /* LibraryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibraryViewController.h; sourceTree = "<group>"; };
+		50E4BA9014B69D6A0087C364 /* LibraryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibraryViewController.m; sourceTree = "<group>"; };
+		50F77CCB14CFD12500B13774 /* Song.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Song.h; sourceTree = "<group>"; };
+		50F77CCC14CFD12500B13774 /* Song.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Song.m; sourceTree = "<group>"; };
+		50F77CCE14CFDDC600B13774 /* SongDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongDetailViewController.h; sourceTree = "<group>"; };
+		50F77CCF14CFDDC600B13774 /* SongDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongDetailViewController.m; sourceTree = "<group>"; };
+		50FA4BE814EBFCF7005FDBE5 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50E4BA5A14B698A90087C364 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B9236B14FFCD4D006F6AD1 /* QuartzCore.framework in Frameworks */,
+				50E4BA6214B698A90087C364 /* UIKit.framework in Frameworks */,
+				50E4BA6414B698A90087C364 /* Foundation.framework in Frameworks */,
+				50E4BA6614B698A90087C364 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50775B1C14E5994B00C1A383 /* SBJSON */ = {
+			isa = PBXGroup;
+			children = (
+				50775B1E14E5996700C1A383 /* NSObject+SBJson.h */,
+				50775B1F14E5996700C1A383 /* NSObject+SBJson.m */,
+				50775B2014E5996700C1A383 /* SBJson.h */,
+				50775B2114E5996700C1A383 /* SBJsonParser.h */,
+				50775B2214E5996700C1A383 /* SBJsonParser.m */,
+				50775B2314E5996700C1A383 /* SBJsonStreamParser.h */,
+				50775B2414E5996700C1A383 /* SBJsonStreamParser.m */,
+				50775B2514E5996700C1A383 /* SBJsonStreamParserAccumulator.h */,
+				50775B2614E5996700C1A383 /* SBJsonStreamParserAccumulator.m */,
+				50775B2714E5996700C1A383 /* SBJsonStreamParserAdapter.h */,
+				50775B2814E5996700C1A383 /* SBJsonStreamParserAdapter.m */,
+				50775B2914E5996700C1A383 /* SBJsonStreamParserState.h */,
+				50775B2A14E5996700C1A383 /* SBJsonStreamParserState.m */,
+				50775B2B14E5996700C1A383 /* SBJsonStreamWriter.h */,
+				50775B2C14E5996700C1A383 /* SBJsonStreamWriter.m */,
+				50775B2D14E5996700C1A383 /* SBJsonStreamWriterAccumulator.h */,
+				50775B2E14E5996700C1A383 /* SBJsonStreamWriterAccumulator.m */,
+				50775B2F14E5996700C1A383 /* SBJsonStreamWriterState.h */,
+				50775B3014E5996700C1A383 /* SBJsonStreamWriterState.m */,
+				50775B3114E5996700C1A383 /* SBJsonTokeniser.h */,
+				50775B3214E5996700C1A383 /* SBJsonTokeniser.m */,
+				50775B3314E5996700C1A383 /* SBJsonUTF8Stream.h */,
+				50775B3414E5996700C1A383 /* SBJsonUTF8Stream.m */,
+				50775B3514E5996700C1A383 /* SBJsonWriter.h */,
+				50775B3614E5996700C1A383 /* SBJsonWriter.m */,
+			);
+			name = SBJSON;
+			sourceTree = "<group>";
+		};
+		50C49D4114E4668100AAE524 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				50775B1C14E5994B00C1A383 /* SBJSON */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		50E4BA5214B698A80087C364 = {
+			isa = PBXGroup;
+			children = (
+				50B9236A14FFCD4D006F6AD1 /* QuartzCore.framework */,
+				50E4BA6714B698A90087C364 /* Scherzo */,
+				50E4BA6014B698A90087C364 /* Frameworks */,
+				50E4BA5E14B698A90087C364 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50E4BA5E14B698A90087C364 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50E4BA5D14B698A90087C364 /* Scherzo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50E4BA6014B698A90087C364 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50E4BA6114B698A90087C364 /* UIKit.framework */,
+				50E4BA6314B698A90087C364 /* Foundation.framework */,
+				50E4BA6514B698A90087C364 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50E4BA6714B698A90087C364 /* Scherzo */ = {
+			isa = PBXGroup;
+			children = (
+				50C49D4114E4668100AAE524 /* libs */,
+				5035408A14D0747200D38616 /* Default.png */,
+				5035408814D0738900D38616 /* icon.png */,
+				50B9235D14FFC778006F6AD1 /* speechbubble@2x.png */,
+				50B9235E14FFC778006F6AD1 /* folder.png */,
+				50B9235F14FFC778006F6AD1 /* folder@2x.png */,
+				50B9236014FFC778006F6AD1 /* play@2x.png */,
+				50B9236114FFC778006F6AD1 /* speechbubble.png */,
+				50B9236214FFC778006F6AD1 /* play.png */,
+				50F77CC914CFD10600B13774 /* Models */,
+				50E4BA7014B698A90087C364 /* AppDelegate.h */,
+				50E4BA7114B698A90087C364 /* AppDelegate.m */,
+				50E4BA7314B698A90087C364 /* MainStoryboard_iPhone.storyboard */,
+				50E4BA7614B698A90087C364 /* MainStoryboard_iPad.storyboard */,
+				50E4BA7C14B698A90087C364 /* first.png */,
+				50E4BA7E14B698A90087C364 /* first@2x.png */,
+				50E4BA8314B698A90087C364 /* second.png */,
+				50E4BA8514B698A90087C364 /* second@2x.png */,
+				50E4BA7914B698A90087C364 /* FeedbackViewController.h */,
+				50E4BA7A14B698A90087C364 /* FeedbackViewController.m */,
+				50E4BA8C14B69B530087C364 /* NowPlayingViewController.h */,
+				50E4BA8D14B69B530087C364 /* NowPlayingViewController.m */,
+				50E4BA8F14B69D6A0087C364 /* LibraryViewController.h */,
+				50E4BA9014B69D6A0087C364 /* LibraryViewController.m */,
+				50E4BA6814B698A90087C364 /* Supporting Files */,
+				50F77CCE14CFDDC600B13774 /* SongDetailViewController.h */,
+				50F77CCF14CFDDC600B13774 /* SongDetailViewController.m */,
+				5035408414D0680200D38616 /* RequesterHelper.h */,
+				5035408514D0680200D38616 /* RequesterHelper.m */,
+				50FA4BE814EBFCF7005FDBE5 /* Settings.bundle */,
+			);
+			name = Scherzo;
+			path = "Request-A-Song";
+			sourceTree = "<group>";
+		};
+		50E4BA6814B698A90087C364 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50E4BA6914B698A90087C364 /* Request-A-Song-Info.plist */,
+				50E4BA6A14B698A90087C364 /* InfoPlist.strings */,
+				50E4BA6D14B698A90087C364 /* main.m */,
+				50E4BA6F14B698A90087C364 /* Scherzo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50F77CC914CFD10600B13774 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				50F77CCB14CFD12500B13774 /* Song.h */,
+				50F77CCC14CFD12500B13774 /* Song.m */,
+				50C49D6114E4683F00AAE524 /* SocketJSONParser.h */,
+				50C49D6214E4683F00AAE524 /* SocketJSONParser.m */,
+				507B258814E788B600334C5C /* SocketDelegate.h */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50E4BA5C14B698A90087C364 /* Scherzo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50E4BA8914B698A90087C364 /* Build configuration list for PBXNativeTarget "Scherzo" */;
+			buildPhases = (
+				50E4BA5914B698A90087C364 /* Sources */,
+				50E4BA5A14B698A90087C364 /* Frameworks */,
+				50E4BA5B14B698A90087C364 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Scherzo;
+			productName = "Request-A-Song";
+			productReference = 50E4BA5D14B698A90087C364 /* Scherzo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50E4BA5414B698A80087C364 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 50E4BA5714B698A80087C364 /* Build configuration list for PBXProject "Scherzo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 50E4BA5214B698A80087C364;
+			productRefGroup = 50E4BA5E14B698A90087C364 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50E4BA5C14B698A90087C364 /* Scherzo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50E4BA5B14B698A90087C364 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E4BA6C14B698A90087C364 /* InfoPlist.strings in Resources */,
+				50E4BA7514B698A90087C364 /* MainStoryboard_iPhone.storyboard in Resources */,
+				50E4BA7814B698A90087C364 /* MainStoryboard_iPad.storyboard in Resources */,
+				50E4BA7D14B698A90087C364 /* first.png in Resources */,
+				50E4BA7F14B698A90087C364 /* first@2x.png in Resources */,
+				50E4BA8414B698A90087C364 /* second.png in Resources */,
+				50E4BA8614B698A90087C364 /* second@2x.png in Resources */,
+				5035408914D0738900D38616 /* icon.png in Resources */,
+				5035408B14D0747200D38616 /* Default.png in Resources */,
+				50FA4BE914EBFCF7005FDBE5 /* Settings.bundle in Resources */,
+				50B9236314FFC778006F6AD1 /* speechbubble@2x.png in Resources */,
+				50B9236414FFC778006F6AD1 /* folder.png in Resources */,
+				50B9236514FFC778006F6AD1 /* folder@2x.png in Resources */,
+				50B9236614FFC778006F6AD1 /* play@2x.png in Resources */,
+				50B9236714FFC778006F6AD1 /* speechbubble.png in Resources */,
+				50B9236814FFC778006F6AD1 /* play.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50E4BA5914B698A90087C364 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E4BA6E14B698A90087C364 /* main.m in Sources */,
+				50E4BA7214B698A90087C364 /* AppDelegate.m in Sources */,
+				50E4BA7B14B698A90087C364 /* FeedbackViewController.m in Sources */,
+				50E4BA8E14B69B530087C364 /* NowPlayingViewController.m in Sources */,
+				50E4BA9114B69D6A0087C364 /* LibraryViewController.m in Sources */,
+				50F77CCD14CFD12500B13774 /* Song.m in Sources */,
+				50F77CD014CFDDC600B13774 /* SongDetailViewController.m in Sources */,
+				5035408614D0680200D38616 /* RequesterHelper.m in Sources */,
+				50C49D6314E4683F00AAE524 /* SocketJSONParser.m in Sources */,
+				50775B3714E5996700C1A383 /* NSObject+SBJson.m in Sources */,
+				50775B3814E5996700C1A383 /* SBJsonParser.m in Sources */,
+				50775B3914E5996700C1A383 /* SBJsonStreamParser.m in Sources */,
+				50775B3A14E5996700C1A383 /* SBJsonStreamParserAccumulator.m in Sources */,
+				50775B3B14E5996700C1A383 /* SBJsonStreamParserAdapter.m in Sources */,
+				50775B3C14E5996700C1A383 /* SBJsonStreamParserState.m in Sources */,
+				50775B3D14E5996700C1A383 /* SBJsonStreamWriter.m in Sources */,
+				50775B3E14E5996700C1A383 /* SBJsonStreamWriterAccumulator.m in Sources */,
+				50775B3F14E5996700C1A383 /* SBJsonStreamWriterState.m in Sources */,
+				50775B4014E5996700C1A383 /* SBJsonTokeniser.m in Sources */,
+				50775B4114E5996700C1A383 /* SBJsonUTF8Stream.m in Sources */,
+				50775B4214E5996700C1A383 /* SBJsonWriter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		50E4BA6A14B698A90087C364 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50E4BA6B14B698A90087C364 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		50E4BA7314B698A90087C364 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50E4BA7414B698A90087C364 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		50E4BA7614B698A90087C364 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50E4BA7714B698A90087C364 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50E4BA8714B698A90087C364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50E4BA8814B698A90087C364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50E4BA8A14B698A90087C364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Request-A-Song/Scherzo-Prefix.pch";
+				INFOPLIST_FILE = "Request-A-Song/Request-A-Song-Info.plist";
+				PRODUCT_NAME = Scherzo;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		50E4BA8B14B698A90087C364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Request-A-Song/Scherzo-Prefix.pch";
+				INFOPLIST_FILE = "Request-A-Song/Request-A-Song-Info.plist";
+				PRODUCT_NAME = Scherzo;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50E4BA5714B698A80087C364 /* Build configuration list for PBXProject "Scherzo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50E4BA8714B698A90087C364 /* Debug */,
+				50E4BA8814B698A90087C364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50E4BA8914B698A90087C364 /* Build configuration list for PBXNativeTarget "Scherzo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50E4BA8A14B698A90087C364 /* Debug */,
+				50E4BA8B14B698A90087C364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50E4BA5414B698A80087C364 /* Project object */;
+}

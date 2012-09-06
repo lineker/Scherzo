@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="11.3">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>740</x>
+      <y>500</y>
+      <w>110</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Music Manager</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>790</x>
+      <y>20</y>
+      <w>70</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Socket</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>550</x>
+      <y>500</y>
+      <w>140</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Database Interface
+(ServicePool)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>0</x>
+      <y>130</y>
+      <w>90</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Client</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>700</x>
+      <y>140</y>
+      <w>300</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>ProcessingThread
+--
+- mMusicManager:MusicManager
+- mServicePool:ServicePool
+- mSocket:Socket
+--
+- parseRequest(RequestJson): ResponseJson
+- getSong(int): Song
+- storeFeedback(String): void
+- updateSongRequests(Song): void
+- getPlaylist(): List&lt;Song&gt;
+- getPlaying(): List&lt;Song&gt;
++ run(): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>610</x>
+      <y>40</y>
+      <w>80</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Runnable</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>880</x>
+      <y>500</y>
+      <w>80</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Song</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>770</x>
+      <y>340</y>
+      <w>50</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>lt=&gt;&gt;&gt;-
+m1=1</panel_attributes>
+    <additional_attributes>30;160;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>440</x>
+      <y>150</y>
+      <w>280</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1
+m2=1..*</panel_attributes>
+    <additional_attributes>30;170;160;170;160;30;260;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>810</x>
+      <y>340</y>
+      <w>130</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+uses&gt;
+</panel_attributes>
+    <additional_attributes>110;160;110;100;30;100;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>620</x>
+      <y>340</y>
+      <w>170</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>lt=&gt;&gt;&gt;-
+m1=1</panel_attributes>
+    <additional_attributes>30;160;30;110;150;110;150;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>800</x>
+      <y>20</y>
+      <w>50</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=&gt;&gt;&gt;-
+m1=1
+m2=1</panel_attributes>
+    <additional_attributes>30;30;30;120</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>650</x>
+      <y>40</y>
+      <w>180</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>30;30;30;70;160;70;160;100</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>60</x>
+      <y>90</y>
+      <w>170</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+sends request&gt;
+</panel_attributes>
+    <additional_attributes>150;50;30;50</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>370</x>
+      <y>0</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>ServerSocket</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>390</x>
+      <y>0</y>
+      <w>50</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&gt;&gt;&gt;&gt;-
+m1=1
+m2=1</panel_attributes>
+    <additional_attributes>30;30;30;90</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>10</x>
+      <y>130</y>
+      <w>750</w>
+      <h>330</h>
+    </coordinates>
+    <panel_attributes>lt=&gt;.
+&lt;sends response
+</panel_attributes>
+    <additional_attributes>730;240;730;310;30;310;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>460</x>
+      <y>0</y>
+      <w>350</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>lt=&gt;&gt;&gt;-
+m1=0..*
+m2=1</panel_attributes>
+    <additional_attributes>330;30;240;30;120;30;120;160;30;160</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Package</type>
+    <coordinates>
+      <x>210</x>
+      <y>70</y>
+      <w>300</w>
+      <h>350</h>
+    </coordinates>
+    <panel_attributes>RequestHandler.java</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>220</x>
+      <y>100</y>
+      <w>270</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>RequestHandler
+--
+- mServerSocket:ServerSocket
+- mPort:int
+- mMusicManager:MusicManager
+- mConnectionQueue:LinkedList&lt;Socket&gt;
+- mHandlerThread:HandlerThread
+- mShutdown:Boolean
+--
++ run(): void
++ shutdown(): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>220</x>
+      <y>280</y>
+      <w>250</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>HandlerThread
+--
+- THREADPOOL:int
+- SLEEPTIME:int
+- mThreads:ProcessingThread[]
+--
++ run(): void
+- startConnection(): void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>440</x>
+      <y>40</y>
+      <w>230</w>
+      <h>310</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>210;30;210;290;30;290</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>460</x>
+      <y>40</y>
+      <w>180</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>160;30;160;160;30;160</additional_attributes>
+  </element>
+</diagram>

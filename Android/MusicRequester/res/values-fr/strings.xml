@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Scherzo</string>
+    <string name="Button">Soumettre</string>
+    <string name="feedback">Message:</string>
+    <string name="feedback2">Envoyez nous votre opinion sur nos services et musique. 
+    Nous apprécions vos opinions et suggestions.</string>
+    <string name="help">Aide</string>
+    <string name="settings">Paramètres</string>
+    <string name="refresh">Refraîchir</string>
+    <string name="title">Titre</string>
+    <string name="artist">Artiste</string>
+    <string name="album">Album</string>
+    <string name="length">Duration</string>
+    <string name="done">Fermer</string>
+    <string name="help_playing">Pour refraîchir la liste des chansons en jouant, choisissez refraîchir du menu.
+    Pour voir les details d\'une chanson, choisissez la chanson dans la liste. 
+    Si vous avez des problèmes de la connectivité, essayez de changer le serveur dans les paramètres. 
+    Demandez votre établissement pour les détailes du serveur.</string>
+    <string name="help_playlist">Pour refraîchir la playlist, choisissez refraîchir du menu.
+    Pour demander une chanson, cliquez sur la chanson et envoyez la demande.
+    Si vous voulez une heure particulière pour votre demande, choisissez une heure dans 
+    la dialogue de demande et envoyez.
+	Si vous avez des problèmes de la connectivité, essayez de changer le serveur dans les paramètres. 
+    Demandez votre établissement pour les détailes du serveur</string>
+    <string name="settings_text">Changer le serveur:</string>
+    <string name="cancel">Annuler</string>
+    <string name="song_info">Information de la chanson</string>
+    <string name="feedback_thanks">Nous apprécions vos opinions et suggestions.</string>
+    <string name="song_request">Demander une chanson</string>
+    <string name="request">Demander</string>
+    <string name="request_sent">Demande est envoyé.</string>
+    <string name="request_time">Choisir l\'heure de la demande</string>
+    <string name="select_time">Choisir l\'heure</string>
+    <string name="server">Nom du serveur:</string>
+    <string name="port">Port:</string>
+    <string name="feedbackTitle">Contactez nous</string>
+    <string name="playingTitle">En Jouant</string>
+    <string name="playlistTitle">Playlist</string>
+</resources>

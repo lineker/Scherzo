@@ -1,0 +1,82 @@
+<html>
+	<body>
+		<h3>Setting Up a Request</h3>
+		<table>
+			<tr>
+				<td>Element</td>
+				<td>Description</td>
+				<td>Usage</td>
+			</tr>
+			<tr>
+				<td>Name</td>
+				<td>The name of the playlist.</td>
+				<td>MySongs, Christmas, etc.</td>
+			</tr>
+			<tr>
+				<td>Songs</td>
+				<td>Specify the number of songs you want </br>
+				in the playlist. Select 'no limit' for no limit.</td>
+				<td>Positive integers: 1, 5, 22</td>
+			</tr>
+			<tr>
+				<td>Generator</td>
+				<td>Choose the type of generator you want:
+				<ul>
+					<li>Simple: Songs that meet all criteria.</li>
+					<li>Majority: Songs that meet a majority of the criteria.</li>
+					<li>Tolerance: Songs that can fail a specified number of criteria.</li>
+				</ul>
+				</td>
+				<td>--</td>
+			</tr>
+			<tr>
+				<td>Rules</td>
+				<td>Choose a trait to maximize or minimize.</td>
+				<td>Least plays, most requested</td>
+			</tr>
+			<tr>
+				<td>Advanced</td>
+				<td>Add criteria of the form "[trait] [operator] [value]".</td>
+				<td>Title contains Christmas, Artist contains Elvis</td>
+			</tr>
+			<tr>
+				<td>Clear</td>
+				<td>Clears the form.</td>
+				<td>--</td>
+			</tr>
+			<tr>
+				<td>Create</td>
+				<td>Creates and stores the playlist.</td>
+				<td>--</td>
+			</tr>
+		</table>
+		<h3>Troubleshooting</h3>
+		<table>
+			<tr>
+				<td>Error</td>
+				<td>Cause</td>
+				<td>Resolution </td>
+			</tr>
+			<tr>
+				<td>Playlist name already exists.</td>
+				<td>Playlist name already exists.</td>
+				<td>Change the playlist name or delete existing playlist. </td>
+			</tr>
+			<tr>
+				<td>Song generation failed.</td>
+				<td>Database failure or incorrect rules.</td>
+				<td>Check rules or restart. </td>
+			</tr>
+			<tr>
+				<td>Invalid song or tolerance number entered.</td>
+				<td>Song or tolerance value is incorrect.</td>
+				<td>Change song or tolerance value to a correct number.</td>
+			</tr>
+			<tr>
+				<td>There are no songs that meet your criteria.</td>
+				<td>There are no songs that meet your criteria.</td>
+				<td>Add songs that meet your criteria or change your criteria.</td>
+			</tr>
+		</table>
+	</body>
+</html>

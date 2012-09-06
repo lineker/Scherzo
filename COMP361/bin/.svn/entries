@@ -1,0 +1,52 @@
+10
+
+dir
+215
+svn+ssh://ltomaz@cvs.cs.mcgill.ca/xtra/2011/TeamX/repositoryCOMP361/COMP361/bin
+svn+ssh://ltomaz@cvs.cs.mcgill.ca/xtra/2011/TeamX/repositoryCOMP361
+
+
+
+2012-02-21T21:35:08.627621Z
+124
+ryoung11
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+17917221-bce3-e011-8cd4-54520053ee9e
+
+Settings
+dir
+
+RequestHandler
+dir
+
+statistics
+dir
+
+DataAccess
+dir
+
+MusicManager
+dir
+
+jgroove
+dir
+
+SongGenerator
+dir
+
+UI
+dir
+

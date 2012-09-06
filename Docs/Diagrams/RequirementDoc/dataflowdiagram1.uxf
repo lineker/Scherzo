@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="11.3">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.umlet.element.custom.Systemborder</type>
+    <coordinates>
+      <x>10</x>
+      <y>10</y>
+      <w>800</w>
+      <h>500</h>
+    </coordinates>
+    <panel_attributes>Global Data-Flow Diagram</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.UseCase</type>
+    <coordinates>
+      <x>420</x>
+      <y>60</y>
+      <w>120</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Request Handler</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>240</x>
+      <y>50</y>
+      <w>200</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+request
+sent across
+network</panel_attributes>
+    <additional_attributes>180;50;30;50</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.UseCase</type>
+    <coordinates>
+      <x>170</x>
+      <y>60</y>
+      <w>100</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>iOS or Android
+application</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>60</x>
+      <y>50</y>
+      <w>130</w>
+      <h>94</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+song
+request</panel_attributes>
+    <additional_attributes>110;50;30;50</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>370</x>
+      <y>30</y>
+      <w>430</w>
+      <h>470</h>
+    </coordinates>
+    <panel_attributes>Server Program</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>510</x>
+      <y>50</y>
+      <w>140</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+validated
+request
+passed</panel_attributes>
+    <additional_attributes>120;50;30;50</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.UseCase</type>
+    <coordinates>
+      <x>630</x>
+      <y>60</y>
+      <w>120</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Music Manager</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>600</x>
+      <y>100</y>
+      <w>104</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+verified
+request
+passed</panel_attributes>
+    <additional_attributes>70;150;50;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.UseCase</type>
+    <coordinates>
+      <x>630</x>
+      <y>250</y>
+      <w>120</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Active Queue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>660</x>
+      <y>100</y>
+      <w>114</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+request
+status 
+message 
+passed</panel_attributes>
+    <additional_attributes>70;30;50;150</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>60</x>
+      <y>140</y>
+      <w>130</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+feedback</panel_attributes>
+    <additional_attributes>110;50;30;50</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.UseCase</type>
+    <coordinates>
+      <x>170</x>
+      <y>150</y>
+      <w>100</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>iOS or Android
+application</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>240</x>
+      <y>100</y>
+      <w>220</w>
+      <h>118</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+feedback
+sent across
+network</panel_attributes>
+    <additional_attributes>200;30;30;90</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Text</type>
+    <coordinates>
+      <x>470</x>
+      <y>350</y>
+      <w>110</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Database</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>400</x>
+      <y>310</y>
+      <w>210</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+</panel_attributes>
+    <additional_attributes>30;30;160;30;190;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>400</x>
+      <y>360</y>
+      <w>210</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+</panel_attributes>
+    <additional_attributes>30;30;190;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Text</type>
+    <coordinates>
+      <x>60</x>
+      <y>240</y>
+      <w>260</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Note: The same client could perform
+both actions. This diagram separates
+them to illustrate the data flow.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>400</x>
+      <y>110</y>
+      <w>176</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+compiled feedback
+file retrieved,
+added to,
+saved</panel_attributes>
+    <additional_attributes>90;230;90;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>630</x>
+      <y>300</y>
+      <w>110</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+pass song
+reference</panel_attributes>
+    <additional_attributes>60;110;60;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.UseCase</type>
+    <coordinates>
+      <x>630</x>
+      <y>410</y>
+      <w>120</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Streaming 
+Manager</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>270</x>
+      <y>390</y>
+      <w>380</w>
+      <h>94</h>
+    </coordinates>
+    <panel_attributes>lt=&gt;-
+stream the requested
+music</panel_attributes>
+    <additional_attributes>30;50;360;50</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>20</x>
+      <y>90</y>
+      <w>70</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Client</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>20</x>
+      <y>180</y>
+      <w>70</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Client</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Text</type>
+    <coordinates>
+      <x>220</x>
+      <y>410</y>
+      <w>80</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Streaming 
+Server</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>90</x>
+      <y>560</y>
+      <w>110</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>A user</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>60</x>
+      <y>580</y>
+      <w>360</w>
+      <h>94</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+the command that causes the data 
+to flow from system A to system B
+</panel_attributes>
+    <additional_attributes>340;50;30;50</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.UseCase</type>
+    <coordinates>
+      <x>490</x>
+      <y>620</y>
+      <w>120</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>A system</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>450</x>
+      <y>510</y>
+      <w>210</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+</panel_attributes>
+    <additional_attributes>30;30;160;30;190;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Text</type>
+    <coordinates>
+      <x>520</x>
+      <y>550</y>
+      <w>110</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Database</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>450</x>
+      <y>560</y>
+      <w>210</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+</panel_attributes>
+    <additional_attributes>30;30;190;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Text</type>
+    <coordinates>
+      <x>10</x>
+      <y>520</y>
+      <w>320</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Data Flow Diagram Elements:</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

@@ -1,0 +1,31 @@
+
+Section 2:
+The Summary Diagrams and lengthy explanation of diagram elements.
+
+-The Environment Diagram 
+-The Domain Model 
+-Installation Model
+
+Other Section:
+Database Structure Table
+
+
+The environment diagram above gives a  representation of the physical environment, and the software application required for our application to be functional.
+
+The minimum requirement for our application is to have a computer to act as a server. The server has to be connected to the background sound system (speakers) and have at least some music files (mp3) in the local computer or a internet connection so streaming can be activated.
+
+By having access to the music files or streaming, we can start using the server to manage libraries and play music.
+
+By importing songs and managing libraries the database will be populated, creating relationships between songs and different libraries that the administrator can create. This data will also be available for statistical purposes.
+
+To extend the application for user interaction with the sound system, it is required to have a router wireless where users can connect their devices to the network and communicate with the Server. The server must be connected to the same router and network that the users' devices will be connected. Devices running iOS or Android OS will be supported. The user has to download an application which will be available in the Apple Store and Android Market Place.
+
+The administrator of the server can make libraries available to users, so they can suggest songs  to the current playing queue.
+
+The user will also be able to send a feedback message to the administrator, increasing the interaction between users and administrator.
+
+The Server can fully work without the internet, but the streaming feature will be deactivated, which forces the administrator to have their music files available on the file system.
+
+At the moment, the only way of communication between clients and server is through the iOS and Android OS. No support is available to other platforms at the moment.
+
+We deny any responsibility of setting up the local network and internet connection.

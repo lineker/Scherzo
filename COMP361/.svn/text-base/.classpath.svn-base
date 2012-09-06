@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry exported="true" kind="lib" path="libs/jaco-mp3-player-0.9.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/jl1.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/mp3spi1.9.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/myid3.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/tritonus_share.jar"/>
+	<classpathentry kind="lib" path="libs/gson-1.7.1.jar"/>
+	<classpathentry kind="lib" path="libs/sqlite-jdbc-3.7.3.jar"/>
+	<classpathentry kind="lib" path="libs/gnujaxp.jar"/>
+	<classpathentry kind="lib" path="libs/iText-2.1.5.jar"/>
+	<classpathentry kind="lib" path="libs/jcommon-1.0.17.jar"/>
+	<classpathentry kind="lib" path="libs/jfreechart-1.0.14-swt.jar"/>
+	<classpathentry kind="lib" path="libs/jfreechart-1.0.14.jar"/>
+	<classpathentry kind="lib" path="libs/servlet.jar"/>
+	<classpathentry kind="lib" path="libs/swtgraphics2d.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="libs/joda-time-2.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="libs/joda-time-2.0-sources.jar"/>
+	<classpathentry kind="lib" path="libs/joda-time-2.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

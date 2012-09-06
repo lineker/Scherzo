@@ -1,0 +1,55 @@
+10
+
+dir
+215
+svn+ssh://ltomaz@cvs.cs.mcgill.ca/xtra/2011/TeamX/repositoryCOMP361/Android/MusicRequester/res
+svn+ssh://ltomaz@cvs.cs.mcgill.ca/xtra/2011/TeamX/repositoryCOMP361
+
+
+
+2012-03-02T03:40:32.234238Z
+140
+abendz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+17917221-bce3-e011-8cd4-54520053ee9e
+
+values
+dir
+
+values-ua
+dir
+
+drawable-hdpi
+dir
+
+menu
+dir
+
+values-fr
+dir
+
+values-jp
+dir
+
+drawable-ldpi
+dir
+
+drawable-mdpi
+dir
+
+layout
+dir
+

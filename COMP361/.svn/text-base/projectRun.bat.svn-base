@@ -1,0 +1,2 @@
+REM java -cp ".;.\;C:\Users\Alicia\Desktop\ProjectOutput\jfreechart-1.0.14.jar;C:\Users\Alicia\Desktop\ProjectOutput\joda-time-2.0.jar;C:\Users\Alicia\Desktop\ProjectOutput\gson-1.7.1.jar;C:\Users\Alicia\Desktop\ProjectOutput\tritonus_share.jar;C:\Users\Alicia\Desktop\ProjectOutput\jl1.0.1.jar;C:\Users\Alicia\Desktop\ProjectOutput\jcommon-1.0.17.jar;C:\Users\Alicia\Desktop\ProjectOutput\sqlite-jdbc-3.7.3.jar;C:\Users\Alicia\Desktop\ProjectOutput\jl1.0.1.jar" MusicManager.Main
+java -jar proj.jar
